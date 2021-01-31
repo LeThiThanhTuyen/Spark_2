@@ -85,8 +85,6 @@ Các thuộc tính của Spark được chia làm 2 loại:
 <p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp; •	Nó được sử dụng để cung cấp mức độ tích hợp dễ dàng với các công nghệ và khuôn khổ dữ liệu lớn khác.
 <p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp; •	Tính trừu tượng mà họ cung cấp cho RDD hiệu quả và giúp xử lý nhanh hơn.
 <p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp; Nguồn dữ liệu PySpark: Dữ liệu có thể được tải vào thông qua tệp CSV, JSON, XML hoặc tệp Parquet. Nó cũng có thể được tạo bằng cách sử dụng RDD hiện có và thông qua bất kỳ cơ sở dữ liệu nào khác, như Hive hoặc Cassandra . Nó cũng có thể lấy dữ liệu từ HDFS hoặc hệ thống tệp cục bộ.
-<p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp;
-  
 
 ## Phần 2: Code minh họa
 <p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp; Hàm count() cho biết số phần tử có trong RDD:
@@ -95,7 +93,9 @@ Các thuộc tính của Spark được chia làm 2 loại:
 <p align="center"> <img src ="https://user-images.githubusercontent.com/77925421/106383807-7886b500-63fa-11eb-8976-009a66948734.png" width="50%"/>
 <p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp; Hàm filler():
 <p align="center"> <img src ="https://user-images.githubusercontent.com/77925421/106383808-7a507880-63fa-11eb-90e6-5d10e747262a.png" width="50%"/>
+	
 ## Phần 3: Tài liệu tham khảo
+	
 &nbsp;&nbsp;&nbsp;&nbsp; 1. https://spark.apache.org/docs/latest/configuration.html
 
 &nbsp;&nbsp;&nbsp;&nbsp; 2. https://www.tutorialspoint.com/apache_spark/apache_spark_rdd.htm
