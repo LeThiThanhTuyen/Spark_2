@@ -21,8 +21,8 @@ Ví dụ:
 <p align="center"> <img src ="https://user-images.githubusercontent.com/77925421/106374975-903e4900-63ba-11eb-9ec0-ce11ed674ad7.png" width="50%"/>
 <p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp; Các thuộc tính đặt trực tiếp trên SparkConf có độ ưu tiên cao nhất sau đó là spark-submit hoặc spark-shell sau đó là spark-defaults.conf. Ở các phiên bản mới thì các tên cũ vẩn được chấp nhận nhưng độ ưu tiên sẽ thấp hơn.
 Các thuộc tính của Spark được chia làm 2 loại: 
-- Liên quan đến triển khai như spark.driver.memory, spark.executor.instances
-- Liên quan đến thời gian chạy Spark như spark.task.maxFailures
+<p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp; Liên quan đến triển khai như spark.driver.memory, spark.executor.instances
+<p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp; Liên quan đến thời gian chạy Spark như spark.task.maxFailures
   
 ### B: Spark RDD
 <p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp; Tập dữ liệu phân tán có khả năng phục hồi (RDD) là một cấu trúc dữ liệu cơ bản của Spark là tập hợp các đối tượng được phân phối bất biến, dữ liệu được chia thành các vùng logic được tính toán trên các nút khác nhau của cụm, chứa các đối tượng của Python, Java, Scala gồm cả các lớp do người dùng định nghĩa. Về hình thức thì RDD là tập hợp các bản ghi được phân vùng và chỉ để đọc được tạo thông qua hoạt động xác đĩnh trên dữ liệu bộ lưu trữ ổn định hoặc các RDD khác. RDD chịu được lỗi có thể hoạt động song song. Có 2 các để tạo RDD: song song và tham chiếu dữ liệu.
