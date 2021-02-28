@@ -1,7 +1,7 @@
 # Spark_2
 ## Phần 1: Tìm hiểu Spark
 ### A: Spark properties
-<p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp; Spark properties kiểm soát hầu hết các cài đặt ứng dụng và được cấu hình riêng cho từng ứng dụng, được đặt trực tiếp trên SparkConf (cho phép định cấu hình một số thuộc tính phổ biến như URL chính và tên ứng dụng) được chuyển tới SparkContext của bạn. Các key-value thông qua phương thức set(). 
+<p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp; Spark properties kiểm soát hầu hết các cài đặt ứng dụng và được cấu hình riêng cho từng ứng dụng, được đặt trực tiếp trên SparkConf (cho phép định cấu hình một số thuộc tính phổ biến như URL chính và tên ứng dụng) được chuyển tới SparkContext. Các key-value thông qua phương thức set(). 
 Ví dụ: khởi tạo ứng dụng chạy trong ngữ cảnh phân tán với 2 luồng giá trị.
 <p align="center"> <img src ="https://user-images.githubusercontent.com/77925421/106374874-92ec6e80-63b9-11eb-92eb-405234070018.png" width="50%"/>
 <p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp; Spark Streaming có thể yêu cầu nhiều hơn 1 luồng để ngăn chặn bất kỳ vấn đề chết đói nào.
@@ -10,7 +10,7 @@ Các định dạng khoảng thời gian được chấp nhận:
 <p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp; Các định dạng kích thước được chấp nhận:
 <p align="center"> <img src ="https://user-images.githubusercontent.com/77925421/106374971-8a486800-63ba-11eb-919f-ff3ad8e7aa8f.png" width="50%"/>
 <p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp; Các số không có đơn vị thông thường sẽ được hiểu là byte.
-	Mã hóa cứng các cấu hình nhất dịnh trong Spark. Cụ thể là tạo 1 conf trống trong Spark để chạy ứng dụng với các bản gốc khác nhau hoặc số lượng bộ nhớ khác nhau.
+	Mã hóa cứng các cấu hình nhất định trong Spark. Cụ thể là tạo 1 conf trống trong Spark để chạy ứng dụng với các bản gốc khác nhau hoặc số lượng bộ nhớ khác nhau.
 <p align="center"> <img src ="https://user-images.githubusercontent.com/77925421/106374973-8caac200-63ba-11eb-9ffa-2986856fc2a2.png" width="50%"/>
   
 <p align="justify"> &nbsp;&nbsp;&nbsp;&nbsp; Cung cấp cấu hình trong thời gian chạy:
